@@ -1,0 +1,41 @@
+body {
+    background-color: #8D99CE;
+}
+
+@font-face {
+    font-family: 'Font';
+    src: url(./fonts/Nandia.ttf);
+}
+
+* {
+    font-family: 'Font';
+    color: #EFE6DD;
+    font-size: 20px;
+}
+
+.header {
+    height: 15%;
+    width: auto;
+}
+
+.nav {
+    height: 100%;
+    width: 100%;
+    background-color: #2D0734;
+    border-radius: 10px;
+}
+
+img {
+    width: 10%;
+    height: 120%;
+}
+
+.link {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 55%;
+    top: 7%;
+}
